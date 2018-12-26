@@ -1,0 +1,2 @@
+SELECT * FROM `user` JOIN inforoot on inforoot.userID=user.id
+SELECT * FROM `user` JOIN inforoot on inforoot.userID=user.id order by inforoot.timeof desc

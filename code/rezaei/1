@@ -1,0 +1,27 @@
+<?php
+	$res="";
+	$sql='SELECT * FROM `user` ;
+	$result=$connect->prepare
+
+
+
+
+
+
+
+
+
+
+ if ($studentNumber == '') {
+ 	$sql='SELECT  `liveCountryID` FROM `inforoot` WHERE id=?'
+    $countryID_sn = sprintf('%03d', $liveCountryID);
+    shuffle ($random_numbers_array);
+     $random_number = array_shift($random_numbers_array);
+    $studentNumber = '97'.strval($countryID_sn).$random_number.'01';
+    $queryUser = "UPDATE user SET studentNumber= '$studentNumber' WHERE id='$userID'";
+    $resultUser = mysqli_query ( $coo, $queryUser );
+                            }
+
+
+
+?>
